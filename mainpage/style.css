@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+::-webkit-scrollbar-track{
+  background-color:#30008a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#eb00f3, #5a66ec);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: linear-gradient(#f38a00, #db3232);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+.colored {
+  font-family: 'Rubik One', sans-serif;
+  font-size: 35px;
+  background: linear-gradient(45deg, #300b49 , #0d59bc , #2b61b3 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header {
+  background: rgb(5, 8, 37);
+  box-shadow: 0 4px 8px rgba(0,0,0,.2);  
+}
+
+nav {
+  max-width:100%;
+  margin: 0 auto;
+  padding: 10px 10px;
+
+}
+
+ul {
+  font-family: 'Oswald';
+  display: flex;
+  float: right;
+  height: 70px;
+  line-height: 70px;
+  font-size: 20px;
+  margin-right: 95px;
+}
+
+a.ul{
+  text-decoration: none;
+  padding: 0 30px;
+  color:aliceblue;
+  margin-top: 30px;
+  background: rgb(5, 8, 37);
+  border-radius: 8px;
+  transition: all 1s ease;
+}
+
+a.ul:hover {
+  background: rgba(0,0,0,0);
+  color: #7f0099;
+  box-shadow: inset 0 0 0 1px #7f0099;
+}
+  
+footer {
+  display: flex;
+  background-color:#000000;
+  color: white;
+  position:fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
+  box-shadow: 0 4px 6px rgba(0,0,0,.2); 
+  font-family: 'Oswald';
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: #30008a;
+  color:aliceblue;
+  font-family: sans-serif;
+  height: 400vh;
+  scroll-behavior: smooth;
+}
+
+
+

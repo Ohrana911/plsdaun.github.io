@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BCTecho</title>
+    <link rel="stylesheet" type="text/css" href="grad.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Press+Start+2P&family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Adaptive header for site</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar__wrap">
+                <div class="hamb">
+                    <div class="hamb__field" id="hamb">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+                <div class="logo-design">
+                    <h1 class="logo">
+                        <a class = "logo" href = "#">
+                            <img src="kurs.png" width="70" height="70">
+                        </a>
+                    </h1>
+                    <h1 class="colored">
+                        BLOCKCHAIN<br>TECHNOLOGIES</p>
+                    </h1>
+                </div>
+                <ul class="menu" id="menu">
+                    <li><a class = "ul" href="../mainpage/howitwork.html">Главная</a></li>
+                    <li><a class = "ul" href="../criptovalutes.html">Криптовалюты</a></li>
+                    <li><a class = "ul" href="../consalting/index.html">NFT</a></li>
+                    <li><a class = "ul" href="../invest/index.html">Инвестиции</a></li>
+                    <li><a class = "ul" href="../kurses/last.html">Курсы</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="popup" id="popup"></div>
+    <div class="main">
+        <div class="center">
+            <h1>Welcome to cripto store!</h1>
+            <hr class="line">
+        </div>
+    </div>
+    <section class = "cardblock">
+        <div class="element-animation">
+
+            <img src="solana.png" alt="Блокчейн криптовалюта SOL" class="card__img">
+            <h2 class="card__name">SOLANA</h2>
+            <p class="card__price"><h1 id="stock-price1">---</h1><span class="card__currency">average price(BUSD)</span></p>
+            <button class="card__btn">Buy Now</button>
+
+        </div>
+        <div class="element-eth">
+
+            <img src="ethereum.png" alt="Блокчейн криптовалюта ETH" class="card__img">
+            <h2 class="card__name">ETHEREUM</h2>
+            <p class="card__price"><h1 id="stock-price">---</h1><span class="card__currency">average price(BUSD)</span></p>
+            <button class="card__btn">Buy Now</button>
+
+        </div>
+    </section>
+    <footer>2022© tenjotsa. ALL RIGHTS RESERVED</footer>
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+</body>
